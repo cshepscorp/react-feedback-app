@@ -5,7 +5,7 @@ import {
   NavLink,
 } from 'react-router-dom';
 import Header from './components/Header';
-import Card from './components/shared/Card';
+import Card from './shared/Card';
 // import FeedbackItem from './components/FeedbackItem';
 import FeedbackList from './components/FeedbackList';
 import FeedbackStats from './components/FeedbackStats';

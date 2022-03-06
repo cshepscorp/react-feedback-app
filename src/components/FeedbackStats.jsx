@@ -9,7 +9,8 @@ function FeedbackStats() {
     feedback.reduce((acc, cur) => {
       return acc + cur.rating;
     }, 0) / feedback.length;
-  //console.log(avg);
+  console.log(feedback.length, 'feedback length');
+  console.log(avg, 'is avg');
   avg = avg.toFixed(1).replace(/[.,]0$/, '');
 
   return (

@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { FaTimes, FaEdit } from 'react-icons/fa';
-import Card from './shared/Card';
+import Card from '../shared/Card';
 import { useContext } from 'react';
 import FeedbackContext from '../context/FeedbackContext';
 
